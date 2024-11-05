@@ -28,7 +28,7 @@ nav ul {
 nav ul {
  /*geenmarginuna maar display:flex op de ul en dan gap 1em bijvop de ruimte tussen de litjes aan te geven*/
 display: flex;
-gap: 2em;
+gap: 1em;
 }
 
 nav ul li p {
