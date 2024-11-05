@@ -28,7 +28,7 @@ nav ul {
 nav ul {
  /*geenmarginuna maar display:flex op de ul en dan gap 1em bijvop de ruimte tussen de litjes aan te geven*/
 display: flex;
-gap: 3em;
+gap: 2em;
 }
 
 nav ul li p {
@@ -65,7 +65,7 @@ main setion{
 
 main img{
     width: 100vw;
-    
+
 }
 
 body {
@@ -111,7 +111,7 @@ a :active{
   }
   
  .container p {
-    max-width: 800px; /* Set a maximum width for paragraphs */
+    max-width: 700px; /* Set a maximum width for paragraphs */
     margin: 0 auto; /* Center the paragraphs */
     padding: 0 20px; /* Optional: Add padding for better readability */
   }
@@ -123,20 +123,21 @@ a :active{
     gap: 10px; /* Adjust the gap between heading and paragraph */
   }
   
- main p {
-    max-width: 800px; /* Set a maximum width for paragraphs */
+ main h1, h2, h3, p {
+    max-width: 600px; /* Set a maximum width for paragraphs */
     width: 100%; /* Ensure the paragraph takes up the full width up to the max-width */
     margin: 0 auto; /* Center the paragraphs */
     padding: 10px; /* Optional: Add padding for better readability */
+    text-align: center;   
 }
   
-  
+
 main li{
 padding: 10px;
 }
 
 .intro {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
     padding: 10px;
@@ -144,15 +145,8 @@ padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
  
-/* Styling for the "Why I Thrift" section */
-.h1{
-    text-align: center;
-    font-size: 50px;
-}
-
 main ul li {
     padding: 10px;
     font-weight: 200;
