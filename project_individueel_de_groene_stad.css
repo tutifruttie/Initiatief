@@ -1,0 +1,160 @@
+@import url("https://use.typekit.net/frh5wjw.css");
+@import url("https://use.typekit.net/frh5wjw.css");
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+header {
+    background-color: rgb(95, 53, 53);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+ /*geenmarginuna maar display:flex op de ul en dan gap 1em bijvop de ruimte tussen de litjes aan te geven*/
+display: flex;
+gap: 3em;
+}
+
+nav ul li p {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: larger;
+
+}
+
+header h1{
+    font-family: "dreamboat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav img{
+    display: block;
+    margin: auto;
+    width: 15vw;
+}
+main article{
+    background-color: pink; /* Gele achtergrond met doorzichtigheid */
+    position: relative; /* Zorg ervoor dat z-index werkt */
+    z-index: 1; /* Zorg ervoor dat de paragraaf boven de achtergrondafbeelding komt */
+    padding: 10px; /* Voeg wat padding toe voor een betere zichtbaarheid */
+}
+
+main setion{
+    display: flex;
+  align-items: center;
+}
+
+main img{
+    width: 100vw;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Img/background.png);
+    background-size: cover; /* Zorgt ervoor dat de afbeelding het hele scherm bedekt */
+    background-position: center; /* Centreert de afbeelding */
+    background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
+    background-attachment: fixed; /* Zorgt ervoor dat de achtergrond vast blijft staan bij scrollen */
+}
+
+header, main, footer {
+    position: relative; /* Zorgt ervoor dat de inhoud bovenop de achtergrondafbeelding komt */
+    z-index: 1; /* Zorgt ervoor dat de inhoud zichtbaar is boven de achtergrondafbeelding */
+ }
+
+
+history h3, p{
+font-family: "quincy-cf", serif;
+font-weight: 200;
+font-style: italic;
+}
+
+main li{
+font-family: "quincy-cf", serif;
+font-weight: 200;
+font-style: italic;
+}
+
+a :active{
+    background: black;
+    transform:scale(2) rotate(360deg);
+    translate: (0,5em);
+    border-radius: 50%; /* This makes the element a circle */
+    transition: transform 0.5s;
+}
+  
+.container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+ .container p {
+    max-width: 800px; /* Set a maximum width for paragraphs */
+    margin: 0 auto; /* Center the paragraphs */
+    padding: 0 20px; /* Optional: Add padding for better readability */
+  }
+
+.container > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+    gap: 10px; /* Adjust the gap between heading and paragraph */
+  }
+  
+ main p {
+    max-width: 800px; /* Set a maximum width for paragraphs */
+    width: 100%; /* Ensure the paragraph takes up the full width up to the max-width */
+    margin: 0 auto; /* Center the paragraphs */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
+  
+  
+main li{
+padding: 10px;
+}
+
+.intro {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(183, 181, 181);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+/* Styling for the "Why I Thrift" section */
+.h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+main ul li {
+    padding: 10px;
+    font-weight: 200;
+    text-align: center;
+}
