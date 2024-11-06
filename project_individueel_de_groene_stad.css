@@ -64,8 +64,7 @@ main setion{
 }
 
 main img{
-    width: vw auto;
-
+    width: 100vw;
 }
 
 body {
@@ -181,14 +180,4 @@ a{
     color: black;
     
 }
-
-.home-page{
-    width: vw auto;
-}
-.vintage-page{
-    width: vw auto;
-}
-
-.milieu-page{
-    width: vw auto;
-}
+ 
