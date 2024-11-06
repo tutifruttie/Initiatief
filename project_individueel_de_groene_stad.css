@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 10px 20px;
     text-align: center;
-width: 100vw;
+ max-width: 100%;
 }
 
 header h1 {
@@ -133,7 +133,7 @@ padding: 10px;
 
 .intro {
     max-width: 500px;
-    width: 100%;
+   max-width: 100%;
     margin: 0 auto;
     padding: 10px;
     background-color: #b28db9;
