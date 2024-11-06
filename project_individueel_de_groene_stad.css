@@ -36,7 +36,7 @@ nav ul li p {
     color: white;
     text-align: center;
     display: block;
-    font-size: larger;
+    font-size: 1em; 
 
 }
 
@@ -54,7 +54,6 @@ nav img{
 main article{
     background-color: pink; /* Gele achtergrond met doorzichtigheid */
     position: relative; /* Zorg ervoor dat z-index werkt */
-    z-index: 1; /* Zorg ervoor dat de paragraaf boven de achtergrondafbeelding komt */
     padding: 10px; /* Voeg wat padding toe voor een betere zichtbaarheid */
 }
 
@@ -72,16 +71,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(Img/background.png);
-    background-size: cover; /* Zorgt ervoor dat de afbeelding het hele scherm bedekt */
-    background-position: center; /* Centreert de afbeelding */
-    background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
-    background-attachment: fixed; /* Zorgt ervoor dat de achtergrond vast blijft staan bij scrollen */
+background-color: #FDF9D1;   
 }
 
 header, main, footer {
     position: relative; /* Zorgt ervoor dat de inhoud bovenop de achtergrondafbeelding komt */
-    z-index: 1; /* Zorgt ervoor dat de inhoud zichtbaar is boven de achtergrondafbeelding */
  }
 
 
@@ -97,7 +91,7 @@ font-weight: 200;
 font-style: italic;
 }
 
-a :active{
+a:active img{
     background: black;
     transform:scale(2) rotate(360deg);
     translate: (0,5em);
@@ -111,7 +105,7 @@ a :active{
   }
   
  .container p {
-    max-width: 700px; /* Set a maximum width for paragraphs */
+    max-width: 500px; /* Set a maximum width for paragraphs */
     margin: 0 auto; /* Center the paragraphs */
     padding: 0 20px; /* Optional: Add padding for better readability */
   }
@@ -124,7 +118,7 @@ a :active{
   }
   
  main h1, h2, h3, p {
-    max-width: 600px; /* Set a maximum width for paragraphs */
+    max-width: 500px; /* Set a maximum width for paragraphs */
     width: 100%; /* Ensure the paragraph takes up the full width up to the max-width */
     margin: 0 auto; /* Center the paragraphs */
     padding: 10px; /* Optional: Add padding for better readability */
@@ -137,7 +131,7 @@ padding: 10px;
 }
 
 .intro {
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     margin: 0 auto;
     padding: 10px;
