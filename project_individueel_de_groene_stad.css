@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    width: 100vw;
+width: 100vw;
 }
 
 header h1 {
@@ -64,7 +64,7 @@ main setion{
 }
 
 main img{
-    width: 100vw;
+    width: vw auto;
 
 }
 
@@ -132,7 +132,7 @@ padding: 10px;
 }
 
 .intro {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     margin: 0 auto;
     padding: 10px;
@@ -180,4 +180,15 @@ a{
     text-decoration-line: none;
     color: black;
     
+}
+
+.home-page{
+    width: vw auto;
+}
+.vintage-page{
+    width: vw auto;
+}
+
+.milieu-page{
+    width: vw auto;
 }
