@@ -52,16 +52,6 @@ nav img{
     margin: auto;
     width: 15vw;
 }
-main article{
-    background-color: pink; /* Gele achtergrond met doorzichtigheid */
-    position: relative; /* Zorg ervoor dat z-index werkt */
-    padding: 10px; /* Voeg wat padding toe voor een betere zichtbaarheid */
-}
-
-main setion{
-    display: flex;
-  align-items: center;
-}
 
 main img{
     width: 100vw;
@@ -108,12 +98,7 @@ a:active img{
     width: 150px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
   }
-  
- .container p {
-    max-width: 500px; /* Set a maximum width for paragraphs */
-    margin: 0 auto; /* Center the paragraphs */
-    padding: 0 20px; /* Optional: Add padding for better readability */
-  }
+
 
 .container > section {
     display: flex;
