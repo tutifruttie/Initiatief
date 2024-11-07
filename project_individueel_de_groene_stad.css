@@ -31,7 +31,17 @@ nav ul {
 display: flex;
 gap: 1em;
 }
+footer {
+    text-align: center; /* Aligns text in the center */
+    margin-top: 20px; /* Adds space above the footer */
+    padding: 10px;
+    background-color: #e6bfc5;
+}
 
+footer a {
+    color: black;
+ 
+}
 nav ul li p {
     text-decoration: none;
     color: white;
