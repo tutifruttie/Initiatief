@@ -179,7 +179,7 @@ a{
     margin: 0 auto;
     box-sizing: border-box;
 }
-main.vintage-page {
+.vintage-page {
     padding: 20px; /* Add padding to ensure content is not too close to the edges */
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
