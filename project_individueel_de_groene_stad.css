@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: 30px;
-    overflow-x: hidden; /* Voorkom horizontaal scrollen */ 
 }
 
 header {
@@ -73,11 +72,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-background-color: #FDF9D1;   
+background-color: #FDF9D1;  
+overflow-x: hidden; /* Voorkom horizontaal scrollen */ 
+box-sizing: border-box;
 }
+
 
 header, main, footer {
     position: relative; /* Zorgt ervoor dat de inhoud bovenop de achtergrondafbeelding komt */
+    box-sizing: border-box;
  }
 
 
@@ -140,6 +143,7 @@ padding: 10px;
     border-radius: 10px;
 color: black;
     border-radius: 10px;
+    box-sizing: border-box;
 
 }
  
