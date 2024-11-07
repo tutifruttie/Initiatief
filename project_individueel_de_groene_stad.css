@@ -189,10 +189,17 @@ a{
     margin: 0 auto;
     box-sizing: border-box;
 }
-.vintage-page {
-    padding: 20px; /* Add padding to ensure content is not too close to the edges */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    max-width: 100%; /* Ensure the section takes up the full width */
-    margin: 0 auto; /* Center the section */
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+footer {
+    text-align: center; /* Aligns text in the center */
+    margin-top: 20px; /* Adds space above the footer */
+    padding: 10px;
+    background-color: #e6bfc5;
+}
+
+footer a {
+    color: black;
+ 
+}
+h3, p, h2 {
+    padding: 0;
 }
