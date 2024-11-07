@@ -87,7 +87,7 @@ font-weight: 200;
 font-style: italic;
 }
 
-a:active img{
+li:active img{
     background: black;
     transform:scale(2) rotate(360deg);
     translate: (0,5em);
@@ -185,14 +185,14 @@ a{
 footer {
     text-align: center; /* Aligns text in the center */
     margin-top: 20px; /* Adds space above the footer */
-    padding: 10px;
+    padding: 5px;
     background-color: #e6bfc5;
 }
 
 footer a {
     color: black;
- 
 }
+
 h3, p, h2 {
     padding: 0;
 }
@@ -202,3 +202,7 @@ h3, p, h2 {
     padding-right: 2em;
 }
 
+footer a img{
+    width: 20%;
+    height: 20%;
+}
