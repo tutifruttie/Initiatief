@@ -151,16 +151,14 @@ main ul li {
 
 /* Styling for the unordered list */
 main ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 20px; /* Add space between items */
     max-width: 700px;
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
 }
-
 main ul li {
     background-color: #c49a6c;
     border-radius: 10px;
