@@ -9,16 +9,11 @@ body {
 header {
     background-color: rgb(95, 53, 53);
     color: white;
-    padding: 10px 20px;
+    padding: 1em;
     text-align: center;
  max-width: 100%;
 }
 
-header h1 {
-    margin: 0 auto;
-    font-size: 50px;
-    
-}
 
 nav ul {
     list-style-type: none;
@@ -28,25 +23,23 @@ nav ul {
 }
 
 nav ul {
- /*geenmarginuna maar display:flex op de ul en dan gap 1em bijvop de ruimte tussen de litjes aan te geven*/
 display: flex;
 gap: 2em;
 }
 
 nav ul li p {
-    text-decoration: none;
     color: white;
     text-align: center;
     display: block;
     font-size: 1em; 
-
-
 }
 
 header h1{
     font-family: "dreamboat", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: auto;
+    font-size: 50px;
 }
 
 nav img{
@@ -63,16 +56,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-background-color: #FDF9D1;  
-overflow-x: hidden; /* Voorkom horizontaal scrollen */ 
-box-sizing: border-box;
+    background-color: #FDF9D1;  
+    overflow-x: hidden; 
 }
 
-
-header, main, footer {
-    position: relative; /* Zorgt ervoor dat de inhoud bovenop de achtergrondafbeelding komt */
-    box-sizing: border-box;
- }
 
 
 history h3, p{
@@ -91,68 +78,60 @@ li:active img{
     background: black;
     transform:scale(2) rotate(360deg);
     translate: (0,5em);
-    border-radius: 50%; /* This makes the element a circle */
+    border-radius: 50%; 
     transition: transform 0.5s;
 }
   
 .container img {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; 
+    height: auto; 
   }
 
-
-.container > section {
+.container section {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the items horizontally */
-    gap: 10px; /* Adjust the gap between heading and paragraph */
-
+    align-items: center; 
+    gap: 10px; 
   }
   
  main h1, h2, h3, p {
-    max-width: 500px; /* Set a maximum width for paragraphs */
-    width: 100%; /* Ensure the paragraph takes up the full width up to the max-width */
-    margin: 0 auto; /* Center the paragraphs */
-    padding: 10px; /* Optional: Add padding for better readability */
+    max-width: 500px; 
+    width: 100%; 
+    margin: auto; 
+    padding: 10px; 
     text-align: center;   
 }
 
 
 .intro {
-   max-width: 80%;
-    margin: 0 auto;
+    max-width: 80%;
     padding: 10px;
     background-color: #b28db9;
+    color: black;
     border-radius: 10px;
-color: black;
-    border-radius: 10px;
-    box-sizing: border-box;
-
 }
  
 main ul li {
     padding: 10px;
     font-weight: 200;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 
-/* Styling for the "Why I Thrift" heading */
 .h1 p {
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-/* Styling for the unordered list */
+
 main ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     max-width: 700px;
-    margin: 0 auto;
-    padding: 0;
+    margin: auto;
     list-style-type: none;
 
 }
@@ -173,18 +152,14 @@ a{
 .container, .intro, .h1, main ul {
     padding-left: 10%;
     padding-right: 10%;
-}
-
-/* Zorg ervoor dat de inhoud altijd gecentreerd is */
-.container, .intro, .h1, main ul {
     max-width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 footer {
-    text-align: center; /* Aligns text in the center */
-    margin-top: 20px; /* Adds space above the footer */
+    text-align: center;  
+    margin-top: 20px; 
     padding: 5px;
     background-color: #e6bfc5;
 }
