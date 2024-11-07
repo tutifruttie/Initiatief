@@ -182,4 +182,7 @@ a{
 .vintage-page {
     padding: 20px; /* Add padding to ensure content is not too close to the edges */
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    max-width: 100%; /* Ensure the section takes up the full width */
+    margin: 0 auto; /* Center the section */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
