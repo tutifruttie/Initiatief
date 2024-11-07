@@ -133,7 +133,6 @@ main ul li {
     font-weight: 200;
     text-align: center;
     margin: 0 auto;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Styling for the "Why I Thrift" heading */
@@ -181,7 +180,8 @@ a{
     box-sizing: border-box;
 }
 
-main {
+
+.vintage-page section {
     padding: 20px; /* Add padding to ensure content is not too close to the edges */
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
