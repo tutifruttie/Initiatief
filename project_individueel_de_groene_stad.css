@@ -187,13 +187,14 @@ a{
     color: white;
     
 }
-
-.vintage-page{
-    box-sizing: border-box;
-    overflow-x: hidden; /* Voorkom horizontaal scrollen */
+.container, .intro, .h1, main ul {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.milieu-page{
-    overflow-x: hidden; /* Voorkom horizontaal scrollen */
+/* Zorg ervoor dat de inhoud altijd gecentreerd is */
+.container, .intro, .h1, main ul {
+    max-width: 80%;
+    margin: 0 auto;
     box-sizing: border-box;
 }
