@@ -17,6 +17,7 @@ header {
 header h1 {
     margin: 0 auto;
     font-size: 50px;
+    
 }
 
 nav ul {
@@ -31,23 +32,14 @@ nav ul {
 display: flex;
 gap: 2em;
 }
-footer {
-    text-align: center; /* Aligns text in the center */
-    margin-top: 20px; /* Adds space above the footer */
-    padding: 10px;
-    background-color: #e6bfc5;
-}
 
-footer a {
-    color: black;
- 
-}
 nav ul li p {
     text-decoration: none;
     color: white;
     text-align: center;
     display: block;
     font-size: 1em; 
+
 
 }
 
@@ -58,7 +50,7 @@ header h1{
 }
 
 nav img{
-    display: block;
+    display: block; 
     margin: auto;
     width: 15vw;
 }
@@ -175,7 +167,7 @@ main ul li {
 
 a{
     text-decoration-line: none;
-    color: white;
+    color: black;
     
 }
 .container, .intro, .h1, main ul {
@@ -189,6 +181,7 @@ a{
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 footer {
     text-align: center; /* Aligns text in the center */
     margin-top: 20px; /* Adds space above the footer */
@@ -203,3 +196,9 @@ footer a {
 h3, p, h2 {
     padding: 0;
 }
+
+.vintage-page{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
