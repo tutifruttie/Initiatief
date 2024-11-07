@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -55,6 +56,7 @@ nav img{
 
 main img{
     width: 100vw;
+    
 }
 
 body {
@@ -114,11 +116,7 @@ a:active img{
     padding: 10px; /* Optional: Add padding for better readability */
     text-align: center;   
 }
-  
 
-main li{
-padding: 10px;
-}
 
 .intro {
    max-width: 80%;
@@ -136,7 +134,12 @@ main ul li {
     padding: 10px;
     font-weight: 200;
     text-align: center;
+    font-weight: 200;
     margin: 0 auto;
+    background-color: #c49a6c;
+    border-radius: 10px;
+    box-sizing: border-box;
+   
 }
 
 /* Styling for the "Why I Thrift" heading */
@@ -156,15 +159,14 @@ main ul {
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-
 }
 
 main ul li {
-    background-color: rgba(150, 110, 110, 0.9);
+    background-color: #c49a6c;
     border-radius: 10px;
     padding: 10px;
     margin: 2px;
-    max-width: 80%;
+    max-width: 80%;    
 }
 
 a{
@@ -182,4 +184,9 @@ a{
     max-width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+main{
+    padding: 20px; /* Add padding to ensure content is not too close to the edges */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
