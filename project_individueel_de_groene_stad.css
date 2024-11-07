@@ -29,7 +29,7 @@ nav ul {
 nav ul {
  /*geenmarginuna maar display:flex op de ul en dan gap 1em bijvop de ruimte tussen de litjes aan te geven*/
 display: flex;
-gap: 1em;
+gap: 2em;
 }
 footer {
     text-align: center; /* Aligns text in the center */
