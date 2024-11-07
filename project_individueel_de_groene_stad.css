@@ -187,3 +187,13 @@ a{
     color: white;
     
 }
+
+.vintage-page{
+    box-sizing: border-box;
+    overflow-x: hidden; /* Voorkom horizontaal scrollen */
+}
+
+.milieu-page{
+    overflow-x: hidden; /* Voorkom horizontaal scrollen */
+    box-sizing: border-box;
+}
